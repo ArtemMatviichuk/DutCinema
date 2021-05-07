@@ -2,9 +2,11 @@
 
 ## Project details
 
-- Project name: Cinema
-- Front repository: [Cinema front](https://github.com/maxXximus23/Cinema_project_front)
-
+- Project name: DutCinema
+- CinemaProject: Back-end project (Java Spring)
+- CinemaProject_front: Front-end project (React-JS)
+- CinemaApp: Android application (Kotlin)
+- 
 ## Overview
 
 The web-application will allow user to view list of current films, booking session and buying tickets. 
@@ -86,7 +88,6 @@ message.properties
 
 - Spring
 - Hibernate
-- Thymeleaf template engine
 - MySQL
 - Java Persistence API
 - Passay
@@ -94,3 +95,5 @@ message.properties
 - Flyway
 - Authentification via JWT
 - Lombok
+- ReactJS
+- Kotlin
