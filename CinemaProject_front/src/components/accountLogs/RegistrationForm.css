@@ -1,0 +1,66 @@
+#registr_text__item, #signin_text__item{
+    color:#4A639E;
+    font-weight: 900;
+    font-size: 35px;
+}
+.login_block{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.registration_form__item input, .signin_form__item input{
+    margin-top: 35px;
+}
+
+.error__item{
+    height: 0;
+
+}
+
+#remeber__item{
+    border:5px solid black;
+    visibility:visible;
+}
+
+#btn_singup__item, #btn_singin__item{
+    width: 250px;
+    margin-top: 50px;
+    color: #524f4e;
+    border-color: #4A639E;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+#btn_singup__item:hover, #btn_singin__item:hover{
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.forgot_pass__item:hover{
+    color:#2EE59D;
+}
+
+
+.btn-close {
+    margin-left: 5px;
+    font-weight: 900;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    transition: .3s;
+}
+
+.btn-close:hover {
+    background-color: red;
+    color: white;
+    transition: .3s;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE movies ADD is_blocked BIT NOT NULL;

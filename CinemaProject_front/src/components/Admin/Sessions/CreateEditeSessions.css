@@ -1,0 +1,54 @@
+.apply_button__item,
+.editcreate_wrap__item .movie-back-button {
+   text-align: center;
+   text-decoration: none;
+   line-height: 45px;
+   border: none;
+   border-radius: 45px;
+   margin: 30px 5px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 13px;
+   text-transform: uppercase;
+   font-weight: 900;
+   color: #524f4e;
+   background: rgb(174, 235, 235);
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+   transition: 0.3s;
+}
+
+.editcreate_wrap__item .movie-back-button:hover,
+.apply_button__item:hover {
+   background: #2ee59d;
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   color: white;
+   transform: translateY(-7px);
+}
+
+.editcreate_wrap__item .movie-back-button {
+   width: 120px;
+   height: 45px;
+   background: rgb(174, 235, 235)x;
+}
+
+.apply_button__item {
+   width: 80px;
+   height: 45px;
+   margin-top: 20px;
+}
+
+.editcreate_wrap__item {
+   margin-bottom: 15px;
+}
+
+.label_sessions_editcreate__item {
+   border-radius: 10px;
+   padding: 0 10px;
+   border: 1px solid black;
+   width: 250px;
+   height: 45px;
+}
+
+.label_sessions_editcreate__item:focus {
+   outline: none;
+   border: 1px solid #2ee59d;
+}

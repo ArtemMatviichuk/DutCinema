@@ -1,0 +1,1 @@
+ALTER TABLE halls ADD is_blocked BIT NOT NULL;

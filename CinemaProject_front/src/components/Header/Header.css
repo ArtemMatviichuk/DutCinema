@@ -1,0 +1,103 @@
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+.navbar-custom {
+   background-color: #499c9c;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+   padding: 0;
+}
+.navbar-custom .mr-auto .custom-nav .nav-link {
+   font-weight: 900;
+   color: #ebf8f8;
+   transition: 0.3s;
+}
+
+.navbar-custom .mr-auto .custom-nav :hover {
+   background-color: rgb(174, 235, 235);
+   padding-bottom: 3px;
+   border-radius: 20px;
+   color: #4a639e;
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   transform: translateY(-3px);
+   transition: 0.3s;
+}
+
+.cinema_name__item {
+   padding-top: 0;
+   font-size: 35px;
+   font-family: 'Changa One', cursive;
+   color: white;
+}
+
+.cinema_name__item:hover {
+   color: rgb(76, 217, 175);
+   transition: 0.3s;
+}
+
+.navbar-brand {
+   padding: 0;
+   border-radius: 50px;
+}
+
+.navbar-brand:hover {
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   transition: 0.3s;
+}
+
+#SignUp__item {
+   margin-right: 10;
+   background-color: #a64d4d;
+   transition: 0.3s;
+}
+
+#SignIn__item {
+   margin-right: 10;
+   background-color: #abb4b4;
+   transition: 0.3s;
+}
+
+#SignOut__item {
+   margin-right: 10;
+   background-color: #a64d4d;
+   transition: 0.3s;
+   margin-right: 15px;
+}
+
+#SignUp__item:hover,
+#SignIn__item:hover,
+#SignOut__item:hover {
+   background-color: white;
+   font-weight: 900;
+   color: #4a639e;
+   transform: translateY(-3px);
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   padding-bottom: 10px;
+   transition: 0.3s;
+}
+
+#user_ava_item:hover {
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   border-radius: 50px;
+}
+
+#button_adminpage__item {
+   padding: 5px;
+   color:white;
+   border-radius: 5px;
+   font-weight: 900;
+   background-color: #abb4b4;
+   border: 1px solid black;
+   transition: 0.3s;
+}
+
+#button_adminpage__item:hover {
+   background-color: white;
+   font-weight: 900;
+   color: #4a639e;
+   transform: translateY(-3px);
+   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+   padding-bottom: 10px;
+   transition: 0.3s;
+}

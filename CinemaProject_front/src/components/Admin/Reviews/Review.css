@@ -1,0 +1,23 @@
+.session__item .review__manage__text {
+    font-weight: 500;
+}
+
+.session__item .review__manage__text button {
+    margin-top: 5px;
+    width: 50%;
+    height: 30px;
+    font-size: 17px;
+    border: 2px solid #499C9C;
+    border-radius: 20px;
+    background: white;
+    transition: .3s;
+}
+
+.session__item .review__manage__text button:hover {
+    background: #499C9C;
+    transition: .3s;
+    color: white;
+    font-weight: 900;
+}
+
+

@@ -1,0 +1,42 @@
+.error {
+    font-family: 'Montserrat';
+    padding-top: 30px;
+}
+
+.error-status {
+    font-size: 150px;
+    line-height: 180px;
+    margin-bottom: 50px;
+}
+
+.error-img {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.error-p {
+    font-weight: 900;
+}
+
+.error-message {
+    font-size: 25px;
+}
+
+.toMain {
+    padding: 20px 50px;
+    background-color: #499C9C;
+    margin: 0 auto;
+    border: solid #499C9C 2px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
+.toMain:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: #499C9C;
+}

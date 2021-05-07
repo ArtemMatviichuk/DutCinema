@@ -1,0 +1,104 @@
+
+.wrapper{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.user_info__item{
+   background-color:  rgb(224, 240, 240); 
+   margin: 50px auto;
+}
+
+.user_img__item{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid rgb(174, 235, 235); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.user_name__item{
+    margin-top: 20px;
+    font-size: 25px;
+    color:#4A639E;
+    font-weight: 900;
+}
+.lists_wrapper__item{
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#booked_list__item, #history_list__item{
+    display: none;
+}
+
+#sizeWeight:checked ~ #booked_list__item, #sizeDimensions:checked ~ #history_list__item{
+    display: block;
+}
+
+
+
+#sizeWeight, #sizeDimensions{
+    display: none;
+}
+
+#historylist_controller__item{
+    border-radius: 0px 20px 20px 0px;
+}
+
+#bookedlist_controller__item{
+    border-radius: 20px 0px 0px 20px;
+}
+
+#historylist_controller__item:hover, #bookedlist_controller__item:hover{
+    background:#2EE59D;
+}
+
+#sizeDimensions:checked ~ #historylist_controller__item, #sizeWeight:checked ~ #bookedlist_controller__item {
+    background:#2EE59D;
+    color:white;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+}
+
+
+@media screen and (min-width: 1100px) {
+
+    #historylist_controller__item, #bookedlist_controller__item{
+        display: block;
+        float: left;
+        padding: 20px 30px;
+        margin: 0 auto;
+        font-weight: 900;
+        font-size: 25px;
+        color: #524f4e;
+        background: white;
+        border: 1px solid  rgba(46, 229, 157, .4);
+        text-decoration: none;
+        width: 50%;
+        transition: 0.3s;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1100px ){
+
+    #historylist_controller__item, #bookedlist_controller__item{
+        display: block;
+        float: left;
+        height: 85px;
+        padding: 5px 10px;
+        margin: 0 auto;
+        font-weight: 900;
+        font-size: 25px;
+        color: #524f4e;
+        background: white;
+        border: 1px solid  rgba(46, 229, 157, .4);
+        text-decoration: none;
+        width: 50%;
+        transition: 0.3s;
+        margin-top: 20px;
+    }
+
+}

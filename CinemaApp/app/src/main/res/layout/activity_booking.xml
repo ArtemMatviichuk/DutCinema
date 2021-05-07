@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BookingActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/booking_movie_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="movie title"
+                android:textSize="28sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/booking_session_hall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="hall"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/booking_movie_title" />
+
+            <TextView
+                android:id="@+id/booking_session_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="date"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/booking_session_hall" />
+
+            <ImageView
+                android:id="@+id/booking_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_screen"
+                app:layout_constraintTop_toBottomOf="@+id/booking_session_date"
+                />
+
+            <TextView
+                android:id="@+id/booking_screen_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/booking_session_date"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                android:text="Screen"/>
+
+            <LinearLayout
+                android:id="@+id/booking_places_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/booking_screen_label"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <GridView
+                    android:id="@+id/booking_places"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/booking_chosen_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/booking_btn"
+                app:layout_constraintTop_toBottomOf="@+id/booking_places_container" />
+
+            <Button
+                android:id="@+id/booking_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>

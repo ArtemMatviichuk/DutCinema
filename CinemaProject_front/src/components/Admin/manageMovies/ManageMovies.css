@@ -1,0 +1,136 @@
+.button-box{
+    width: 90%;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    height: 100px;
+}
+
+.button-box  .movie-back-button, .create-button{
+    text-decoration: none;
+    width: 300px;
+    height: 65px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 15px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: rgb(174, 235, 235);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border: none;
+}
+
+.button-box  .movie-back-button:hover, .create-button:hover{
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.movies_manage_wrap__item{
+    margin: 30px auto;
+}
+
+.movies_block_wrap__item{
+    padding-top: 150px;
+}
+
+.movies_manage_wrap__item{
+    width: 90%;
+}
+
+.update_block_button__item{
+    margin: 0 100px;
+}
+            
+.block-button , .update-button{
+    text-decoration: none;
+    width: 200px;
+    height: 60 px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 20px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border: none;
+}
+
+.block-button{
+    background-color: red;
+}
+
+.update-button{
+    background-color: orange;
+}
+
+.block-button:hover , .update-button:hover{
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+.button-box{
+    display: flex;
+}
+.img_ticket__item{
+    margin: 30px;
+    height: 350px;
+    width: auto;
+    background-color: rgb(174, 235, 235);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow:
+            -2px -2px 1px rgba(0,0,0,0.5) inset,
+            10px 4px 10px rgba(0,0,0,0.15),
+            0px 8px 10px rgba(0,0,0,0.15);
+}
+
+.update_block_button__item .text{
+    margin-top: 90px;
+    line-height: 1.8;
+    text-align: left;
+    width: 300px;
+}
+
+.text h3{
+    font-weight: 900;
+    color:#4A639E;
+}
+
+.main {
+    height: 420px;
+    width:  80%;
+    display: flex;
+    margin: 40px auto;
+    text-decoration: none;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.main:hover{
+    transition: 0.4s;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+}
+

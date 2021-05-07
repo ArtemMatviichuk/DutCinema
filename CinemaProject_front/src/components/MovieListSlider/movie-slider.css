@@ -1,0 +1,10 @@
+.movie-list__li{
+    list-style: none;
+}
+
+.slide-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224, 240, 240);
+    padding: 60px;
+}

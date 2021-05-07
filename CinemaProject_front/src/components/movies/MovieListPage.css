@@ -1,0 +1,143 @@
+.search_wrap__item{
+    margin-top: 10px;
+}
+
+.serch_button__item{
+    background-color: rgb(76, 217, 175);
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.reset_button__item{
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: #A64D4D;
+    transition: .3s;
+}
+
+.reset_button__item:hover, .serch_button__item:hover{
+    background-color: white;
+    font-weight: 900;
+    color: #4A639E;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    transition: .3s;
+}
+
+.movies_input__item{
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    padding: 3px;
+    padding-left:10px;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+}
+
+.movies_table {
+    margin: 0 auto;
+    
+}
+
+.page_input__item:checked ~ .page_label{
+    background:#2EE59D;
+    color:white;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    border-radius: 45px;
+}
+
+
+.page_button__item{
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    border-radius: 45px;
+    margin: 30px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.page_button__item:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+.page_input__item{
+    display: none;     
+}
+
+.perPageForm {
+    margin-top: 20px;
+}
+
+.perPageForm span {
+    padding: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.genres__continer {
+    margin-top: 10px;
+}
+
+.genre__item {
+    padding: 5px;
+    background: white;
+    width: 200px;
+    border-radius: 20px;
+      box-shadow: 
+    -2px -2px 1px rgba(0,0,0,0.5) inset,
+    10px 4px 10px rgba(0,0,0,0.15), 
+    0px 8px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.genre__item:hover, .genre__item:hover button {
+    transition: 0.3s;
+    background: teal;
+    color: white;
+}
+
+.genre__item button {
+    transition: 0.3s;
+    border: none;
+    font-weight: 900;
+    background: white;
+    font-size: 18px;
+    float: right;
+    margin-top: -3px;
+}
+
+.genre__item:hover button {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+

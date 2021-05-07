@@ -1,0 +1,16 @@
+a, u {
+    text-decoration: none !important;
+    color:dimgrey;
+}
+
+.container-style {
+    font-family: 'Montserrat', sans-serif;
+    position: static;
+    border-top: 1px solid #c7c7c7;
+    text-align: center;
+    padding-top: 20px;  
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
