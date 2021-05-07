@@ -6,7 +6,7 @@
 - CinemaProject: Back-end project (Java Spring)
 - CinemaProject_front: Front-end project (React-JS)
 - CinemaApp: Android application (Kotlin)
-- 
+
 ## Overview
 
 The web-application will allow user to view list of current films, booking session and buying tickets. 
