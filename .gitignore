@@ -5,13 +5,13 @@ CinemaProject/!**/src/main/**/target/
 CinemaProject/!**/src/test/**/target/
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+CinemaProject/.apt_generated
+CinemaProject/.classpath
+CinemaProject/.factorypath
+CinemaProject/.project
+CinemaProject/.settings
+CinemaProject/.springBeans
+CinemaProject/.sts4-cache
 
 ### IntelliJ IDEA ###
 CinemaProject/*.idea
@@ -20,11 +20,11 @@ CinemaProject/*.iml
 CinemaProject/*.ipr
 
 ### NetBeans ###
-CinemaProject//nbproject/private/
-CinemaProject//nbbuild/
-CinemaProject//dist/
-CinemaProject//nbdist/
-CinemaProject//.nb-gradle/
+CinemaProject/nbproject/private/
+CinemaProject/nbbuild/
+CinemaProject/dist/
+CinemaProject/nbdist/
+CinemaProject/.nb-gradle/
 CinemaProject/build/
 CinemaProject/!**/src/main/**/build/
 CinemaProject/!**/src/test/**/build/
@@ -76,16 +76,16 @@ CinemaProject_front/packages/react-devtools-scheduling-profiler/dist
 #Android Studio
 CinemaApp/*.iml
 CinemaApp/.gradle
-CinemaApp//local.properties
-CinemaApp//.idea/caches
-CinemaApp//.idea/libraries
-CinemaApp//.idea/modules.xml
-CinemaApp//.idea/workspace.xml
-CinemaApp//.idea/navEditor.xml
-CinemaApp//.idea/assetWizardSettings.xml
+CinemaApp/local.properties
+CinemaApp/.idea/caches
+CinemaApp/.idea/libraries
+CinemaApp/.idea/modules.xml
+CinemaApp/.idea/workspace.xml
+CinemaApp/.idea/navEditor.xml
+CinemaApp/.idea/assetWizardSettings.xml
 CinemaApp/.DS_Store
-CinemaApp//build
-CinemaApp//captures
+CinemaApp/build
+CinemaApp/captures
 CinemaApp/.externalNativeBuild
 CinemaApp/.cxx
 CinemaApp/local.properties
